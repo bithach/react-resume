@@ -7,6 +7,7 @@ function Home(props) {
     <div className="background-image">
       <div className="intro-text">
         <h1>Welcome to my website</h1>
+        <a href="/AboutMe">About Me</a>
       </div>
     </div>
   );
