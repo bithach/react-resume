@@ -1,0 +1,14 @@
+img {
+  width: 100px;
+  height: auto;
+  align-self: center;
+}
+
+.heroText {
+  text-align: center;
+}
+
+.selfImage {
+  display: block;
+  justify-content: center;
+}
