@@ -1,14 +1,20 @@
-img {
-  width: 100px;
-  height: auto;
-  align-self: center;
-}
-
 .heroText {
-  text-align: center;
+  text-align: left;
+  display: inline-block;
 }
 
 .selfImage {
   display: block;
   justify-content: center;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: cover;
+  object-position: 0% 60%;
+  overflow: hidden;
+  /* Centers image within the div */
+  display: block;
+  margin: auto;
 }
