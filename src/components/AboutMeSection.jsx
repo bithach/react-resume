@@ -1,4 +1,4 @@
-import "./styling/AboutMeSection.css"
+import "../styling/AboutMeSection.css"
 
 function AboutMeSection(props){
     return(

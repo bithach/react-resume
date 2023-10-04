@@ -1,0 +1,14 @@
+.navbar {
+    width: 100%;
+    align-content: center;
+    background-color: black;
+}
+
+.navbar-item{
+    color: white;
+}
+
+.navbar-item:hover{
+    color: black;
+    background-color: white;
+}
