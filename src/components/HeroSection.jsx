@@ -2,6 +2,7 @@ import "../styling/HeroSection.css";
 import { Container } from "react-bootstrap/";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
+import Button from "react-bootstrap/Button";
 
 function HeroSection(props) {
   return (
@@ -12,6 +13,7 @@ function HeroSection(props) {
             <h1>THACH HUYNH</h1>
             <br />
             <p>Striving for something new</p>
+            <Button size="lg" variant="outline-dark">Contact Me</Button>
           </div>
         </Col>
         <Col>
