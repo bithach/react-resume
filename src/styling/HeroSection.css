@@ -1,4 +1,5 @@
 .heroText {
+  color: black;
   text-align: left;
   display: inline-block;
 }
@@ -8,13 +9,38 @@
   justify-content: center;
 }
 
-img {
-  width: 400px;
-  height: 400px;
+.heroContainer {
+  background-color: aqua;
+}
+
+/* For mobile phones: */
+[class*="img-"] {
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   object-position: 0% 60%;
   overflow: hidden;
   /* Centers image within the div */
   display: block;
   margin: auto;
+  padding: 10px 0px 0px 0px;
+}
+
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .img-desktop {
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    object-position: 0% 60%;
+    overflow: hidden;
+    /* Centers image within the div */
+    display: block;
+    margin: auto;
+    padding: 0px 0px 0px 0px;
+  }
 }
