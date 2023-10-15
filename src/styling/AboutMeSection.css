@@ -1,11 +1,10 @@
-
-.aboutMe-title-desktop{
-    color:green;
-    text-align: center;
-    padding-top: 10px;
+.aboutMe-title-desktop {
+  color: green;
+  text-align: center;
+  padding-top: 10px;
 }
 
-.aboutMe-description-desktop{
-    text-align: center;
-    padding: 0px 40px;
+.aboutMe-description-desktop {
+  text-align: center;
+  padding: 0px 40px;
 }
