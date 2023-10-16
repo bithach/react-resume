@@ -1,15 +1,19 @@
-.workExeperience-title-desktop{
-    color:green;
-    text-align: center;
-    padding: 10px 0px;
+.workExeperience-title-desktop {
+  color: green;
+  text-align: center;
+  padding: 10px 0px;
 }
 
-.company-buttons{
-    text-align: center;
-    padding-bottom: 10px;
+.company-buttons {
+  text-align: center;
+  padding-bottom: 10px;
 }
 
-.company-box{
-    border-style: solid;
-    border-radius: 5px;
+.company-box {
+  border-style: solid;
+  border-radius: 5px;
+}
+
+.company-box-container-desktop {
+  padding: 0px 100px;
 }
