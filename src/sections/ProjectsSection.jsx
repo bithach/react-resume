@@ -1,5 +1,7 @@
 import { useState } from "react";
 import "../styling/ProjectsSection.css";
+import Card from "react-bootstrap/Card";
+import { Button } from "react-bootstrap/Button";
 import { Container } from "react-bootstrap/Container";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
@@ -16,7 +18,10 @@ function ProjectsSection(props) {
       <div className="projectsSection-title-desktop">
         <h1>/* Projects */</h1>
       </div>
-      <div className="project-card"></div>
+      <Card style={{ width: "18rem" }}>
+        <Card.Img></Card.Img>
+        <Card.Title>Brown Bag</Card.Title>
+      </Card>
     </div>
   );
 }
