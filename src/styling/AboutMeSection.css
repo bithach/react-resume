@@ -6,5 +6,19 @@
 
 .aboutMe-description-desktop {
   text-align: center;
-  padding: 0px 40px;
+  margin: 0px 150px;
+}
+
+/* For mobile phones: */
+[class*="aboutMe-description-"] {
+  text-align: center;
+  margin: 0px; 
+}
+
+/* For desktop: */  
+@media only screen and (min-width: 768px) {
+  .aboutMe-description-desktop {
+    text-align: center;
+    margin: 0px 150px;
+  }
 }
