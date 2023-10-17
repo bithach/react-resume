@@ -24,6 +24,7 @@
   display: block;
   margin: auto;
   padding: 10px 0px 0px 0px;
+  border-radius: 20px;
 }
 
 @media only screen and (min-width: 600px) {
@@ -42,5 +43,6 @@
     display: block;
     margin: auto;
     padding: 0px 0px 0px 0px;
+    border-radius: 20px;
   }
 }
