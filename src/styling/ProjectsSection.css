@@ -13,3 +13,20 @@
   text-align: center;
   padding: 0px 40px;
 }
+
+.project-card-desktop{
+  width: 15rem;
+}
+
+
+/* For mobile phones: */
+[class*="project-card-"] {
+  width: 10rem;
+}
+
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .project-card-desktop{
+    width:10rem;
+  }
+}
