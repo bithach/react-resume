@@ -7,15 +7,11 @@ import "../styling/WorkExperienceSection.css";
 import { experienceData } from "../data/WorkExperienceData"
 
 function WorkExperienceSection(props) {
-  const [value, setValue] = useState(0);
   const [experienceDescription, changeDescription] = useState("");
 
   function companyButtonClick(event) {
-    setValue((a) => event.target.id);
-    console.log(experienceData)
-    console.log(experienceData[value-1].description)
-    changeDescription((b)=>experienceData[value-1].description)
-    event.preventDefault();
+    event.preventDefault()
+    changeDescription((b)=>experienceData[event.target.id-1].description)
     return;
   }
 
