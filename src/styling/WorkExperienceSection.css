@@ -14,18 +14,15 @@
   border-radius: 5px;
 }
 
-.company-box-container-desktop {
-  padding: 0px 100px;
-}
 
 /* For mobile phones: */
-[class*="project-card-"] {
-  width: 10rem;
+[class*="company-box-container-"] {
+  /*For USAA*/
 }
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .project-card-desktop{
-    width: 15rem;
+  .company-box-container-desktop {
+    padding: 0px 100px;
   }
 }
