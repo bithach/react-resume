@@ -16,7 +16,7 @@ function ProjectsSection(props) {
   return (
     <div className="projectsSection-body">
       <div className="projectsSection-title-desktop">
-        <h1>/* Projects */</h1>
+        <h1><b>/* Projects */</b></h1>
       </div>
       <div>
         <span>
