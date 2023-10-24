@@ -8,9 +8,9 @@ function NavbarComponent(props) {
       <>
         <Navbar bg="dark" data-bs-theme="dark">
           <Container>
-            <Navbar.Brand href="#home">Navbar</Navbar.Brand>
+            <Navbar.Brand href="#home">Thach Huynh</Navbar.Brand>
             <Nav className="m-auto">
-              <Nav.Link href="#aboutme">Home</Nav.Link>
+              <Nav.Link href="#aboutme">About Me</Nav.Link>
               <Nav.Link href="#work">Experience</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
             </Nav>
