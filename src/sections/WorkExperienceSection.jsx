@@ -19,7 +19,7 @@ function WorkExperienceSection(props) {
   }
 
   return (
-    <div className="workExeperience-body">
+    <div className="workExeperience-body" id="work-section">
       <h1 className="workExeperience-title-desktop"><b>/* Work Experience */</b></h1>
 
       <div className="company-buttons">

@@ -2,7 +2,7 @@ import "../styling/AboutMeSection.css"
 
 function AboutMeSection(props){
     return(
-        <div className="aboutMe-body">
+        <div className="aboutMe-body" id="aboutme-section">
             <div className="aboutMe-title-desktop">
                 <h1><b>/* About Me */</b></h1>
             </div>
