@@ -1,0 +1,16 @@
+{
+    "Venmo Scraper":
+    {
+        "description": "",
+        "language": "Python",
+        "githubLink" : ""
+    },
+
+    "Brown Bag":
+    {
+        "image": "",
+        "description": "This takes in a list of names inside a text file, each on a new line in the text file and pairs everyone up and saves who has been paired up already.",
+        "language": "Python",
+        "githubLink" : "https://github.com/bithach/Brown-Bag"
+    }
+}
