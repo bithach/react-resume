@@ -10,10 +10,12 @@
 }
 
 .company-box {
+  display: flex;
   border-style: solid;
   border-radius: 5px;
+  width: 75%;
+  margin: auto;
 }
-
 
 /* For mobile phones: */
 [class*="company-box-container-"] {
