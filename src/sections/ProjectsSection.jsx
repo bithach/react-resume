@@ -22,6 +22,7 @@ function ProjectsSection(props) {
         className="projectsSection-card-container"
         style={{
           display: "flex",
+          flexWrap: "wrap",
           justifyContent: "center",
           width: "100%",
         }}
@@ -31,6 +32,7 @@ function ProjectsSection(props) {
           <ProjectCard
             key={project}
             projectName={project}
+            projectLogo={projectsData[project].image}
             projectDescription={projectsData[project].description}
             githubLink={projectsData[project].githubLink}
           />
