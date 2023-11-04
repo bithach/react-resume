@@ -48,7 +48,7 @@ function WorkExperienceSection(props) {
                   >
                     {experienceDescription}
                   </Col>
-                  <Col style={{ borderLeft: "solid 5px black" }}>
+                  <Col style={{ borderLeft: "solid 2px black" }}>
                     <img
                       style={{
                         width: "192px",
