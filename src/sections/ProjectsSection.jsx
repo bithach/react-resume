@@ -23,7 +23,6 @@ function ProjectsSection(props) {
           width: "100%",
         }}
       >
-        {console.log(projectsData)}
         {Object.keys(projectsData).map((project) => (
           <ProjectCard
             key={project}
