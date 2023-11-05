@@ -14,7 +14,7 @@
   },
 
   "Club Connect": {
-    "image": "",
+    "image": "/images/clubConnect.png",
     "description": "",
     "language": "Typescript",
     "githubLink": ""
