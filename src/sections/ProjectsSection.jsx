@@ -18,7 +18,6 @@ function ProjectsSection(props) {
       >
         {Object.keys(projectsData).map((project) => (
           <ProjectCard
-            key={project}
             projectName={project}
             projectLogo={projectsData[project].image}
             projectDescription={projectsData[project].description}
@@ -26,7 +25,6 @@ function ProjectsSection(props) {
           />
         ))}
       </div>
-      <div></div>
     </div>
   );
 }
