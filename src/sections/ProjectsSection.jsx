@@ -13,11 +13,7 @@ function ProjectsSection(props) {
 
   return (
     <div className="projectsSection-body" id="project-section">
-      <div className="projectsSection-title-desktop">
-        <h1>
-          <b>/* Projects */</b>
-        </h1>
-      </div>
+      <h1 className="projectsSection-title-desktop">/* Projects *\</h1>
       <div
         className="projectsSection-card-container"
         style={{

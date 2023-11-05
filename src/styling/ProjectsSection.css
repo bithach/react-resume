@@ -1,4 +1,4 @@
-.projectsSection-body{
+.projectsSection-body {
   padding-bottom: 20px;
 }
 
@@ -14,10 +14,17 @@
   padding: 0px 40px;
 }
 
-.project-card-desktop{
+.project-card-desktop {
   width: 15rem;
 }
 
+[class*="projectsSection-title-"] {
+  color: green;
+  text-align: center;
+  padding: 30px 0px 10px;
+  font-weight: 700;
+  text-decoration: underline;
+}
 
 /* For mobile phones: */
 [class*="project-card-"] {
@@ -26,7 +33,11 @@
 
 @media only screen and (min-width: 768px) {
   /* For desktop: */
-  .project-card-desktop{
-    width:10rem;
+  .project-card-desktop {
+    width: 10rem;
+  }
+
+  .projectsSection-title-desktop {
+    font-size: 50px;
   }
 }
