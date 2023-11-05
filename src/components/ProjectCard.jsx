@@ -1,5 +1,3 @@
-import { Link } from "react-router-dom";
-
 export function ProjectCard(props) {
   return (
     <div className="project-card" style={{ padding: "5px 5px" }}>
