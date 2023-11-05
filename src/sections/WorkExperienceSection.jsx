@@ -21,9 +21,7 @@ function WorkExperienceSection(props) {
 
   return (
     <div className="workExeperience-body" id="work-section">
-      <h1 className="workExeperience-title-desktop">
-        <b>/* Work Experience */</b>
-      </h1>
+      <h1 className="workExeperience-title-desktop">/* Work Experience *\</h1>
 
       <div className="company-buttons">
         <Button onClick={companyButtonClick} id={1}>
@@ -44,17 +42,17 @@ function WorkExperienceSection(props) {
                       padding: "20px",
                       alignItems: "center",
                       justifyContent: "center",
+                      fontSize: "20px",
                     }}
                   >
                     {experienceDescription}
                   </Col>
-                  <Col style={{ borderLeft: "solid 2px black" }}>
+                  <Col>
                     <img
                       style={{
                         width: "192px",
                         display: "block",
-                        marginLeft: "auto",
-                        marginRight: "auto",
+                        margin: "auto",
                         padding: "10px 0px",
                         height: "auto",
                       }}
