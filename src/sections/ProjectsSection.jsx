@@ -1,16 +1,9 @@
 import React from "react";
-import { useState } from "react";
 import { ProjectCard } from "../components/ProjectCard";
 import projectsData from "../data/projectsData.json";
 import "../styling/ProjectsSection.css";
 
 function ProjectsSection(props) {
-  const [value, setValue] = useState([1, 3]);
-
-  function onClick() {
-    return;
-  }
-
   return (
     <div className="projectsSection-body" id="project-section">
       <h1 className="projectsSection-title-desktop">/* Projects *\</h1>
