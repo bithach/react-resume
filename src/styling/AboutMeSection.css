@@ -1,24 +1,26 @@
-.aboutMe-title-desktop {
-  color: green;
-  text-align: center;
-  padding-top: 10px;
-}
-
-.aboutMe-description-desktop {
-  text-align: center;
-  margin: 0px 150px;
-}
-
 /* For mobile phones: */
 [class*="aboutMe-description-"] {
   text-align: center;
-  margin: 0px; 
+  margin: 0px;
 }
 
-/* For desktop: */  
+[class*="aboutMe-title-"] {
+  color: green;
+  text-align: center;
+  padding-top: 30px;
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+/* For desktop: */
 @media only screen and (min-width: 768px) {
   .aboutMe-description-desktop {
     text-align: center;
-    margin: 0px 150px;
+    margin: 0px 200px;
+    font-size: 25px;
+  }
+
+  .aboutMe-title-desktop {
+    font-size: 50px;
   }
 }
