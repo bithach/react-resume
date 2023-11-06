@@ -1,6 +1,5 @@
 export let experienceData = [
   {
-    id: 1,
     companyName: "USAA",
     description:
       "During my internship here, I was able to get hands on experience with React and primarily working in the Risk-Compliance department. With this experience, I became more interested in the world of web development. ",
