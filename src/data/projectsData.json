@@ -15,7 +15,7 @@
 
   "Club Connect": {
     "image": "/images/clubConnect.png",
-    "description": "",
+    "description": "An interactive website that allows students to discover clubs at UTD and find their communities.",
     "language": "Typescript",
     "githubLink": ""
   }
