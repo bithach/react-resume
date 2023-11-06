@@ -7,15 +7,7 @@ function ProjectsSection(props) {
   return (
     <div className="projectsSection-body" id="project-section">
       <h1 className="projectsSection-title-desktop">/* Projects *\</h1>
-      <div
-        className="projectsSection-card-container"
-        style={{
-          display: "flex",
-          flexWrap: "wrap",
-          justifyContent: "center",
-          width: "100%",
-        }}
-      >
+      <div className="projectsSection-card-container">
         {Object.keys(projectsData).map((project) => (
           <ProjectCard
             projectName={project}
