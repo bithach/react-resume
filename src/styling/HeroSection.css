@@ -4,6 +4,10 @@
   display: inline-block;
 }
 
+.hero-section-outer {
+  background-image: linear-gradient(white, aqua);
+}
+
 .selfImage {
   display: block;
   justify-content: center;
@@ -45,8 +49,8 @@
     padding: 0px 0px 0px 0px;
     border-radius: 20px;
   }
-  
-  .heroRow{
-    padding-top: 10px;
+
+  .heroRow {
+    padding: 10px 0px;
   }
 }
