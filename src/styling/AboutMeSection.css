@@ -1,8 +1,7 @@
 /* For mobile phones: */
 [class*="aboutMe-description-"] {
   text-align: center;
-  margin: 0px 50px;
-  padding-top: 10px;
+  margin: 0px;
 }
 
 [class*="aboutMe-title-"] {
@@ -19,7 +18,6 @@
     text-align: center;
     margin: 0px 200px;
     font-size: 25px;
-    padding-top: 10px;
   }
 
   .aboutMe-title-desktop {

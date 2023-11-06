@@ -4,10 +4,6 @@
   display: inline-block;
 }
 
-.hero-section-outer {
-  background-image: linear-gradient(white, aqua);
-}
-
 .selfImage {
   display: block;
   justify-content: center;
@@ -31,6 +27,10 @@
   border-radius: 20px;
 }
 
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .img-desktop {
@@ -45,8 +45,8 @@
     padding: 0px 0px 0px 0px;
     border-radius: 20px;
   }
-
-  .heroRow {
+  
+  .heroRow{
     padding-top: 10px;
   }
 }
