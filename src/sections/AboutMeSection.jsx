@@ -2,7 +2,7 @@ import "../styling/AboutMeSection.css";
 
 function AboutMeSection(props) {
   return (
-    <div className="aboutMe-body" id="aboutme-section">
+    <div className="aboutMe-body" id="aboutme">
       <h1 className="aboutMe-title-desktop">/* About Me *\</h1>
       <p className="aboutMe-description-desktop">
         I am currently a senior at the University of Texas at Dallas. I will be

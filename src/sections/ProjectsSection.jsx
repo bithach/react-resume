@@ -5,7 +5,7 @@ import "../styling/ProjectsSection.css";
 
 function ProjectsSection(props) {
   return (
-    <div className="projectsSection-body" id="project-section">
+    <div className="projectsSection-body" id="projects">
       <h1 className="projectsSection-title-desktop">/* Projects *\</h1>
       <div className="projectsSection-card-container">
         {Object.keys(projectsData).map((project) => (
