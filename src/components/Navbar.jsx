@@ -12,7 +12,7 @@ function NavbarComponent(props) {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="m-auto">
               <Nav.Link href="#aboutme">About Me</Nav.Link>
-              <Nav.Link href="#workexperience">Experience</Nav.Link>
+              <Nav.Link href="#experience">Experience</Nav.Link>
               <Nav.Link href="#projects">Projects</Nav.Link>
             </Nav>
           </Navbar.Collapse>
