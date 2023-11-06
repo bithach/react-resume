@@ -1,3 +1,7 @@
+.aboutMe-body {
+  background-image: linear-gradient(aqua, aqua);
+}
+
 /* For mobile phones: */
 [class*="aboutMe-description-"] {
   text-align: center;
@@ -7,7 +11,7 @@
 [class*="aboutMe-title-"] {
   color: green;
   text-align: center;
-  padding-top: 30px;
+  padding-top: 20px;
   font-weight: 700;
   text-decoration: underline;
 }
