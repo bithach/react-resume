@@ -14,9 +14,11 @@ function HeroSection(props) {
               <h1>THACH HUYNH</h1>
               <br />
               <p>Striving for something new</p>
-              <Button size="lg" variant="outline-dark">
-                Contact Me
-              </Button>
+              <a href="mailto:bithach@yahoo.com">
+                <Button size="lg" variant="outline-dark">
+                  Contact Me
+                </Button>
+              </a>
             </div>
           </Col>
           <Col>
