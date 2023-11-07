@@ -1,4 +1,5 @@
 import "../styling/components/ProjectCard.css";
+import githubIcon from "../styling/images/github-mark.svg"
 
 export function ProjectCard(props) {
   return (
@@ -13,11 +14,15 @@ export function ProjectCard(props) {
         <p className="project-desc">{props.projectDescription}</p>
         {props.githubLink !== "" ? (
           <a href={props.githubLink} target="_blank" rel="noreferrer">
-            Github
+            <img src={githubIcon} className="github-icon" alt="Github Logo"></img>
           </a>
         ) : (
-          "Private"
+          ""
         )}
+
+        <div className="project-tags">
+          {props.projectTags}
+        </div>
       </div>
     </div>
   );
