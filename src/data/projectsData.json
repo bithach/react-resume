@@ -14,14 +14,14 @@
   },
 
   "Club Connect": {
-    "image": "./images/clubConnect.png",
+    "image": "/images/clubConnect.png",
     "description": "An interactive website that allows students to discover clubs at their college and find communities.",
     "githubLink": "",
     "tags":  ["Typescript, React, HTML/CSS"]
   },
 
   "Thach Huynh":{
-    "image": "./images/logo512.png",
+    "image": "/images/logo512.png",
     "description": "This website",
     "githubLink": "",
     "tags":  ["Javascript, HTML/CSS"]
