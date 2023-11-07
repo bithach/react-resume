@@ -25,6 +25,8 @@
 
 .project-logo {
   max-width: 100%;
+  width: 192px;
+  height: 192px;
   padding: 5px;
 }
 
