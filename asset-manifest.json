@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.365e36c6.css",
+    "main.js": "/static/js/main.9836db98.js",
+    "static/media/IMG_3938.JPG": "/static/media/IMG_3938.0a8ddd2ab55bde423abf.JPG",
+    "static/media/Usaa_logo_PNG2.png": "/static/media/Usaa_logo_PNG2.332c0d56eca98bcbc954.png",
+    "static/media/github-mark.svg": "/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "index.html": "/index.html",
+    "main.365e36c6.css.map": "/static/css/main.365e36c6.css.map",
+    "main.9836db98.js.map": "/static/js/main.9836db98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.365e36c6.css",
+    "static/js/main.9836db98.js"
+  ]
+}
