@@ -14,6 +14,7 @@ function ProjectsSection(props) {
             projectLogo={projectsData[project].image}
             projectDescription={projectsData[project].description}
             githubLink={projectsData[project].githubLink}
+            projectTags={projectsData[project].tags}
           />
         ))}
       </div>

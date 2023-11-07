@@ -5,6 +5,7 @@
 .project-card-container {
   text-align: center;
   width: 16rem;
+  max-height: 450px;
   max-width: 16rem;
   border: 2px solid black;
   border-radius: 10px;
@@ -32,4 +33,14 @@
 
 .project-desc {
   padding: 0px 10px;
+}
+
+.github-icon{
+  width: 25px;
+  padding-bottom: 10px;
+}
+
+.project-tags{
+  color:gray;
+  border-top: 1px solid black;
 }
