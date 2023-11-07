@@ -66,7 +66,7 @@ function WorkExperienceSection(props) {
           </div>
         </>
       ) : (
-        <p style={{ textAlign: "center" }}>
+        <p style={{ textAlign: "center", margin:"0px", padding:"0px 0px 16px" }}>
           Click on one of the buttons above!
         </p>
       )}
