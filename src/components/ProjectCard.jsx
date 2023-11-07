@@ -6,6 +6,7 @@ export function ProjectCard(props) {
     <div className="project-card">
       <div className="project-card-container">
         <h3 className="project-card-name">{props.projectName}</h3>
+        {console.log(props.projectLogo)}
         <img
           className="project-logo"
           src={props.projectLogo}
