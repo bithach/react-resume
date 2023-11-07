@@ -21,9 +21,10 @@
   },
 
   "Thach Huynh":{
-    "image": "",
+    "image": "/images/logo512.png",
     "description": "This website",
     "githubLink": "",
     "tags":  ["Javascript, HTML/CSS"]
   }
+  
 }
