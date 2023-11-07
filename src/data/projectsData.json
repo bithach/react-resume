@@ -3,20 +3,23 @@
     "image": "",
     "description": "Log into your venmo and google account to see all the transactions that have occured within the account",
     "language": "Python",
-    "githubLink": ""
+    "githubLink": "",
+    "tags": ["Python"]
   },
 
   "Brown Bag": {
     "image": "https://m.media-amazon.com/images/I/61xJLaYbPiL.jpg",
     "description": "This takes in a list of names inside a text file, each on a new line in the text file and pairs everyone up and saves who has been paired up already.",
     "language": "Python",
-    "githubLink": "https://github.com/bithach/Brown-Bag"
+    "githubLink": "https://github.com/bithach/Brown-Bag",
+    "tags":  ["Python"]
   },
 
   "Club Connect": {
     "image": "/images/clubConnect.png",
     "description": "An interactive website that allows students to discover clubs at UTD and find their communities.",
     "language": "Typescript",
-    "githubLink": ""
+    "githubLink": "",
+    "tags":  ["Typescript, React, HTML/CSS"]
   }
 }
