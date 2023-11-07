@@ -18,17 +18,7 @@
   text-decoration: underline;
 }
 
-/* For mobile phones: */
-[class*="project-card-"] {
-  width: 10rem;
-}
-
 @media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .project-card-desktop {
-    width: 10rem;
-  }
-
   .projectsSection-title-desktop {
     font-size: 50px;
   }
