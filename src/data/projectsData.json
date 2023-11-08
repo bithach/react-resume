@@ -10,21 +10,20 @@
     "image": "https://m.media-amazon.com/images/I/61xJLaYbPiL.jpg",
     "description": "This takes in a list of names and pairs them up, remembering each pair on each run until a new list of names",
     "githubLink": "https://github.com/bithach/Brown-Bag",
-    "tags":  ["Python"]
+    "tags": ["Python"]
   },
 
   "Club Connect": {
-    "image": "/images/clubConnect.png",
+    "image": "./images/clubConnect.png",
     "description": "An interactive website that allows students to discover clubs at their college and find communities.",
     "githubLink": "",
-    "tags":  ["Typescript, React, HTML/CSS"]
+    "tags": ["Typescript, React, HTML/CSS"]
   },
 
-  "Thach Huynh":{
-    "image": "/images/logo512.png",
+  "Thach Huynh": {
+    "image": "./images/logo512.png",
     "description": "This website",
     "githubLink": "",
-    "tags":  ["Javascript, HTML/CSS"]
+    "tags": ["Javascript, HTML/CSS"]
   }
-  
 }
