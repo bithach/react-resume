@@ -23,7 +23,7 @@
   "Thach Huynh": {
     "image": "./images/logo512.png",
     "description": "This website",
-    "githubLink": "",
+    "githubLink": "https://github.com/bithach/react-resume",
     "tags": ["Javascript, HTML/CSS"]
   }
 }
