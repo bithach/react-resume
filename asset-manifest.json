@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/react-resume/static/css/main.fffb0544.css",
-    "main.js": "/react-resume/static/js/main.e1025803.js",
+    "main.js": "/react-resume/static/js/main.4ef3b06e.js",
     "static/media/IMG_3938.JPG": "/react-resume/static/media/IMG_3938.0a8ddd2ab55bde423abf.JPG",
     "static/media/Usaa_logo_PNG2.png": "/react-resume/static/media/Usaa_logo_PNG2.332c0d56eca98bcbc954.png",
     "static/media/github-mark.svg": "/react-resume/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/react-resume/index.html",
     "main.fffb0544.css.map": "/react-resume/static/css/main.fffb0544.css.map",
-    "main.e1025803.js.map": "/react-resume/static/js/main.e1025803.js.map"
+    "main.4ef3b06e.js.map": "/react-resume/static/js/main.4ef3b06e.js.map"
   },
   "entrypoints": [
     "static/css/main.fffb0544.css",
-    "static/js/main.e1025803.js"
+    "static/js/main.4ef3b06e.js"
   ]
 }
