@@ -1,7 +1,7 @@
 {
   "Venmo Scraper": {
-    "image": "",
-    "description": "Log into your venmo and google account to see all the transactions that have occured within the account",
+    "image": "https://cdn1.iconfinder.com/data/icons/malware-and-threats-1/512/Online_Scraper-512.png",
+    "description": "Log into your venmo and google account to see all the transactions that have occured within the venmo account",
     "githubLink": "",
     "tags": ["Python"]
   },
