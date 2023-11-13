@@ -1,10 +1,13 @@
-import "../styling/components/ProjectCard.css";
 import githubIcon from "../styling/images/github-mark.svg";
 
 export function ProjectCard(props) {
   return (
     <div className="project-card p-[5px]">
-      <div className="project-card-container text-center w-64 max-h-[450px] max-w-64 border-2 border-black rounded-2xl bg-white">
+      <div
+        className="project-card-container text-center w-64 max-h-[450px] max-w-64 border-2 border-black rounded-2xl bg-white 
+                      transition ease-out delay-400 
+                      hover:translate-y-[-10px] hover:shadow-md hover:shadow-black"
+      >
         <h3 className="project-card-name text-center font-bold py-[5px] border-b-2 border-slate-400">
           {props.projectName}
         </h3>
