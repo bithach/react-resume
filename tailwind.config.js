@@ -4,6 +4,8 @@ module.exports = {
   theme: {
     colors: {
       aqua: "#00ffff",
+      black: "#000000",
+      white: "#FFFFFFF",
     },
     extend: {},
   },
