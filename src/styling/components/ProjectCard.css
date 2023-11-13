@@ -1,46 +1,7 @@
-.project-card {
-  padding: 5px 5px;
-}
-
 .project-card-container {
-  text-align: center;
-  width: 16rem;
-  max-height: 450px;
-  max-width: 16rem;
-  border: 2px solid black;
-  border-radius: 10px;
   transition: 0.4s ease-out;
-  background-color: white;
   &:hover {
     transform: translateY(-10px);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.8);
   }
-}
-
-.project-card-name {
-  text-align: center;
-  font-weight: bold;
-  padding: 5px 0px;
-  border-bottom: 1px solid black;
-}
-
-.project-logo {
-  max-width: 100%;
-  width: 192px;
-  height: 192px;
-  padding: 5px;
-}
-
-.project-desc {
-  padding: 0px 10px;
-}
-
-.github-icon{
-  width: 25px;
-  padding-bottom: 10px;
-}
-
-.project-tags{
-  color:gray;
-  border-top: 1px solid black;
 }
