@@ -7,7 +7,7 @@ function ProjectsSection(props) {
   return (
     <div className="projectsSection-body" id="projects">
       <h1 className="projectsSection-title-desktop">/* Projects *\</h1>
-      <div className="projectsSection-card-container">
+      <div className="projectsSection-card-container w-full justify-center flex flex-wrap">
         {Object.keys(projectsData).map((project) => (
           <ProjectCard
             projectName={project}
