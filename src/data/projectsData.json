@@ -1,14 +1,14 @@
 {
   "Venmo Scraper": {
-    "image": "",
-    "description": "Log into your venmo and google account to see all the transactions that have occured within the account",
+    "image": "https://cdn1.iconfinder.com/data/icons/malware-and-threats-1/512/Online_Scraper-512.png",
+    "description": "Usage of an unofficial venmo API to get trasnactions made with the Venmo Account and placed into a Google Sheet",
     "githubLink": "",
     "tags": ["Python"]
   },
 
   "Brown Bag": {
     "image": "https://m.media-amazon.com/images/I/61xJLaYbPiL.jpg",
-    "description": "This takes in a list of names and pairs them up, remembering each pair on each run until a new list of names",
+    "description": "This takes in a list of names and pairs them up, remembering each pair on each run until a new list of names is inputted",
     "githubLink": "https://github.com/bithach/Brown-Bag",
     "tags": ["Python"]
   },
@@ -18,6 +18,13 @@
     "description": "An interactive website that allows students to discover clubs at their college and find communities.",
     "githubLink": "",
     "tags": ["Typescript, React, HTML/CSS"]
+  },
+
+  "The Collector": {
+    "iamge": "",
+    "description": "A game created for Sogeti Game Jam, won Best Code",
+    "githubLink": "https://github.com/Novan01/GameJam-TheCollector",
+    "tags": ["C#, Unity"]
   },
 
   "Thach Huynh": {
