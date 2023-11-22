@@ -6,7 +6,9 @@ import "../styling/ProjectsSection.css";
 function ProjectsSection(props) {
   return (
     <div className="projectsSection-body" id="projects">
-      <h1 className="projectsSection-title-desktop">/* Projects *\</h1>
+      <h1 className="projectsSection-title-desktop md:text-[50px]">
+        /* Projects *\
+      </h1>
       <div className="projectsSection-card-container w-full justify-center flex flex-wrap">
         {Object.keys(projectsData).map((project) => (
           <ProjectCard
