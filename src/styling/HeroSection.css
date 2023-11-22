@@ -1,20 +1,11 @@
 .heroText {
   color: black;
   text-align: left;
-  display: inline-block;
-}
-
-.hero-section-outer {
-  background-image: linear-gradient(white, aqua);
 }
 
 .selfImage {
   display: block;
   justify-content: center;
-}
-
-.heroContainer {
-  background-color: aqua;
 }
 
 /* For mobile phones: */

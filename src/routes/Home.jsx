@@ -7,12 +7,14 @@ import ProjectsSection from "../sections/ProjectsSection";
 
 function Home(props) {
   return (
-    <>
+    <div className="bg-gradient-to-b from-aqua via-aqua">
       <NavbarComponent />
-      <HeroSection />
-      <WorkExperienceSection />
-      <ProjectsSection />
-    </>
+      <div className="mx-auto max-w-7xl">
+        <HeroSection />
+        <WorkExperienceSection />
+        <ProjectsSection />
+      </div>
+    </div>
   );
 }
 

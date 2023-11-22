@@ -20,7 +20,7 @@ function WorkExperienceSection(props) {
   }
 
   return (
-    <div className="workExeperience-body bg-aqua" id="experience">
+    <div className="workExeperience-body" id="experience">
       <h1 className="workExeperience-title-desktop">/* Work Experience *\</h1>
 
       <div className="company-buttons">
@@ -31,7 +31,7 @@ function WorkExperienceSection(props) {
 
       {targetID !== 0 ? (
         <>
-          <div className="company-box-container-desktop bg-aqua">
+          <div className="company-box-container-desktop">
             <div className="company-box border-3 border-black">
               <Container fluid>
                 <Row>
