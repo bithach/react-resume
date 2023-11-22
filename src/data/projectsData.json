@@ -21,7 +21,7 @@
   },
 
   "The Collector": {
-    "iamge": "",
+    "image": "./images/collector.png",
     "description": "A game created for Sogeti Game Jam, won Best Code",
     "githubLink": "https://github.com/Novan01/GameJam-TheCollector",
     "tags": ["C#, Unity"]
