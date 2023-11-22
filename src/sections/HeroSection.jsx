@@ -10,10 +10,17 @@ function HeroSection(props) {
       <Container>
         <Row className="align-items-center heroRow">
           <Col style={{ height: 100 + "%", textAlign: "center" }}>
-            <div className="heroText">
-              <h1>THACH HUYNH</h1>
-              <br />
-              <p>Striving for something new</p>
+            <div className="heroText ml-16">
+              <h1 className="font-black text-5xl">THACH HUYNH</h1>
+              <h5 className="font-bold">Striving for something new</h5>
+              <p className="font-semibold">
+                <br />I am currently a senior at the University of Texas at
+                Dallas. I will be graduating Fall 2023 with a Bachelors of
+                Science in Software Engineering. I primarly used Java and Python
+                throughout my college career. I am currently learning
+                Javascript/Typescript in a web development environemnt using
+                React.
+              </p>
               <a href="mailto:bithach@hotmail.com">
                 <Button size="lg" variant="outline-dark">
                   Contact Me
