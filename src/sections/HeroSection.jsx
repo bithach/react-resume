@@ -10,7 +10,7 @@ function HeroSection(props) {
       <Container>
         <Row className="align-items-center heroRow">
           <Col style={{ height: 100 + "%", textAlign: "center" }}>
-            <div className="heroText ml-16">
+            <div className="hero-text">
               <h1 className="font-black text-5xl">THACH HUYNH</h1>
               <h5 className="font-bold">Striving for something new</h5>
               <p className="font-semibold">
@@ -28,11 +28,7 @@ function HeroSection(props) {
             </div>
           </Col>
           <Col>
-            <img
-              src={require("../../src/styling/images/IMG_3938.JPG")}
-              alt="Thach Huynh"
-              className="img-desktop"
-            />
+            <div className="img-desktop" />
           </Col>
         </Row>
       </Container>
