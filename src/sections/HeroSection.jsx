@@ -6,7 +6,7 @@ import Button from "react-bootstrap/Button";
 
 function HeroSection(props) {
   return (
-    <div className="hero-section-outer">
+    <div className="hero-section-outer" id="aboutme">
       <Container>
         <Row className="align-items-center heroRow">
           <Col style={{ height: 100 + "%", textAlign: "center" }}>
