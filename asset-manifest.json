@@ -1,18 +1,16 @@
 {
   "files": {
-    "main.css": "/react-resume/static/css/main.96aa028f.css",
-    "main.js": "/react-resume/static/js/main.f62d41eb.js",
+    "main.css": "/react-resume/static/css/main.ad62164b.css",
+    "main.js": "/react-resume/static/js/main.7c138f65.js",
     "static/media/IMG_5151.JPG": "/react-resume/static/media/IMG_5151.c8c1c02a44710d1da2b1.JPG",
     "static/media/Usaa_logo_PNG2.png": "/react-resume/static/media/Usaa_logo_PNG2.332c0d56eca98bcbc954.png",
-    "static/media/mail.svg": "/react-resume/static/media/mail.c4e2250b999fbdc00ce8259dbbf648a8.svg",
     "static/media/github-mark.svg": "/react-resume/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
     "index.html": "/react-resume/index.html",
-    "static/media/linkedin.svg": "/react-resume/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
-    "main.96aa028f.css.map": "/react-resume/static/css/main.96aa028f.css.map",
-    "main.f62d41eb.js.map": "/react-resume/static/js/main.f62d41eb.js.map"
+    "main.ad62164b.css.map": "/react-resume/static/css/main.ad62164b.css.map",
+    "main.7c138f65.js.map": "/react-resume/static/js/main.7c138f65.js.map"
   },
   "entrypoints": [
-    "static/css/main.96aa028f.css",
-    "static/js/main.f62d41eb.js"
+    "static/css/main.ad62164b.css",
+    "static/js/main.7c138f65.js"
   ]
 }
