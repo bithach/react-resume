@@ -42,7 +42,7 @@ export function WorkExperience() {
         ))}
       </div>
       {targetID !== 0 ? (
-        <div className="work-descriptions w-1/2 font-semibold">
+        <div className="work-descriptions w-1/2 font-semibold text-xl">
           {experienceDescription}
         </div>
       ) : (
