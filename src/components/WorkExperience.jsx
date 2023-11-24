@@ -3,9 +3,11 @@ import { useState } from "react";
 
 export function WorkExperience() {
   const [experienceDescription, changeDescription] = useState("");
+  const [targetID, changeTargetID] = useState(0);
 
   function companyButtonClick(event) {
     event.preventDefault();
+    changeTargetID((a) => event.target.id);
     changeDescription((b) => experienceData[event.target.id - 1].description);
     return;
   }
@@ -18,29 +20,34 @@ export function WorkExperience() {
             id={val.id}
             onClick={companyButtonClick}
             className="work-buttons
-            bg-gray-400
+            h-8
             text-left
             pl-2
-            font-black
-            w-1/2
-            border-2
             ml-[50px]
+            lg:ml-[75px]
+            w-1/2
+            font-black
+            border-2
             border-black
+            bg-white
             transition ease-out delay-400
             hover:translate-x-4
             hover:shadow-[-5px_0px_5px_-1px_rgba(0,0,0,0.3)] 
             hover:shadow-black
             hover:bg-black
-            hover:text-white
-            lg:ml-[75px]"
+            "
           >
             {val.companyName}
           </button>
         ))}
       </div>
-      <div className="work-descriptions w-1/2 font-semibold">
-        {experienceDescription}
-      </div>
+      {targetID !== 0 ? (
+        <div className="work-descriptions w-1/2 font-semibold">
+          {experienceDescription}
+        </div>
+      ) : (
+        ""
+      )}
     </div>
   );
 }
