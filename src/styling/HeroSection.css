@@ -5,13 +5,13 @@
 
 /* For mobile phones: */
 [class*="img-"] {
-  background-image: url("../../src/styling/images/IMG_8423.JPG");
+  background-image: url("../../src/styling/images/IMG_5151.JPG");
   background-size: cover;
-  background-position: center;
+  background-position: -600px -500px;
   background-color: aqua;
-  background-size: 550px;
-  width: 400px;
-  height: 400px;
+  background-size: 1300px;
+  width: 300px;
+  height: 300px;
   object-fit: cover;
   object-position: 0% 60%;
   overflow: hidden;
@@ -26,6 +26,7 @@
   .img-desktop {
     width: 500px;
     height: 500px;
+    background-position: -500px -500px;
   }
 
   .heroRow {

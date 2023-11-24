@@ -28,7 +28,10 @@ function HeroSection(props) {
             </div>
           </Col>
           <Col>
-            <div className="img-desktop" />
+            <div className="img-desktop relative"></div>
+            <div className="text-center text-gray-800">
+              Image taken at Lost Mines Trail at Big Bend Park
+            </div>
           </Col>
         </Row>
       </Container>
