@@ -2,13 +2,14 @@ import { experienceData } from "../data/WorkExperienceData";
 import { useState } from "react";
 
 export function WorkExperience() {
-  const [experienceDescription, changeDescription] = useState("");
+  const [experienceDescription, changeDescription] = useState([]);
   const [targetID, changeTargetID] = useState(0);
 
   function companyButtonClick(event) {
     event.preventDefault();
     changeTargetID((a) => event.target.id);
-    changeDescription((b) => experienceData[event.target.id - 1].description);
+    changeDescription(experienceData[event.target.id - 1].description);
+    console.log(experienceDescription);
     return;
   }
 
@@ -37,14 +38,16 @@ export function WorkExperience() {
             hover:bg-black
             "
           >
-            {val.companyName}
+            {val.companyName + " " + val.duration}
           </button>
         ))}
       </div>
       {targetID !== 0 ? (
-        <div className="work-descriptions w-1/2 font-semibold text-xl">
-          {experienceDescription}
-        </div>
+        <ul className="list-disc w-1/2 space-y-2">
+          {experienceDescription.map((desc) => (
+            <li className="font-semibold text-xl">{desc}</li>
+          ))}
+        </ul>
       ) : (
         ""
       )}

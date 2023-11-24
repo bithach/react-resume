@@ -1,8 +1,12 @@
 export let experienceData = [
   {
     companyName: "USAA",
-    description:
-      "During my internship here, I was able to get hands on experience with React and primarily working in the Risk-Compliance department. With this experience, I was able to learn more about web development along with using different libraries concerning visualization of data and became more interested in the world of web development. ",
+    duration: "Summer 2023",
+    description: [
+      "Developed apps in the React framework to display information from a XML file which is sent to another department to handle said information",
+      "Attended daily standups to check progress among the team members within the same department along with attending a spring planning to determine plans for the upcoming quarter",
+      "Used a map library to gain a view of the demographics of the information to potentially focus on where to increase clients",
+    ],
     logo: require("../../src/styling/images/Usaa_logo_PNG2.png"),
     id: "1",
   },
