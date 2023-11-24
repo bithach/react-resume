@@ -2,7 +2,6 @@ import "../styling/HeroSection.css";
 import { Container } from "react-bootstrap/";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
-import Button from "react-bootstrap/Button";
 import linkedInIcon from "../styling/images/social_icons/linkedin.svg";
 import mailIcon from "../styling/images/social_icons/mail.svg";
 import githubIcon from "../styling/images/social_icons/github-mark.svg";
