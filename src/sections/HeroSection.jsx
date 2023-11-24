@@ -3,6 +3,9 @@ import { Container } from "react-bootstrap/";
 import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
+import linkedInIcon from "../styling/images/social_icons/linkedin.svg";
+import mailIcon from "../styling/images/social_icons/mail.svg";
+import githubIcon from "../styling/images/social_icons/icon_clyde_black_RGB.svg";
 
 function HeroSection(props) {
   return (
@@ -20,11 +23,37 @@ function HeroSection(props) {
                 Javascript/Typescript in web development environemnt using
                 React.
               </p>
-              <a href="mailto:bithach@hotmail.com">
-                <Button size="lg" variant="outline-dark">
-                  Contact Me
-                </Button>
-              </a>
+              <div className="socials-container flex flex-wrap ">
+                <a href="mailto:bithach@hotmail.com">
+                  <img
+                    className="h-8 pr-2"
+                    src={mailIcon}
+                    alt="LinkedIn Icon"
+                  />
+                </a>
+                <a
+                  href="https://www.linkedin.com/in/thachhhuynh/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="h-8 px-2"
+                    src={linkedInIcon}
+                    alt="LinkedIn Icon"
+                  />
+                </a>
+                <a
+                  href="https://github.com/bithach"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <img
+                    className="h-8 px-2"
+                    src={githubIcon}
+                    alt="LinkedIn Icon"
+                  />
+                </a>
+              </div>
             </div>
           </Col>
           <Col>

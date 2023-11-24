@@ -21,6 +21,10 @@
   box-shadow: 0 0 8px 8px aqua inset;
 }
 
+[class*="socials-"] {
+  justify-content: center;
+}
+
 @media only screen and (min-width: 768px) {
   /* For desktop: */
   .img-desktop {
@@ -37,5 +41,9 @@
     color: black;
     text-align: left;
     margin-left: 4rem;
+  }
+
+  .socials-container {
+    justify-content: left;
   }
 }
