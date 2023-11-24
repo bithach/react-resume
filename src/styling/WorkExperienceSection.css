@@ -21,11 +21,6 @@
 }
 
 @media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .company-box-container-desktop {
-    padding: 0px 100px;
-  }
-
   .workExeperience-title-desktop {
     font-size: 50px;
   }
