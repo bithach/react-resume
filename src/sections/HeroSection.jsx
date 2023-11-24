@@ -5,7 +5,7 @@ import Col from "react-bootstrap/Col";
 import Button from "react-bootstrap/Button";
 import linkedInIcon from "../styling/images/social_icons/linkedin.svg";
 import mailIcon from "../styling/images/social_icons/mail.svg";
-import githubIcon from "../styling/images/social_icons/icon_clyde_black_RGB.svg";
+import githubIcon from "../styling/images/social_icons/github-mark.svg";
 
 function HeroSection(props) {
   return (
@@ -13,10 +13,10 @@ function HeroSection(props) {
       <Container>
         <Row className="heroRow align-items-center">
           <Col style={{ height: 100 + "%", textAlign: "center" }}>
-            <div className="hero-text">
-              <h1 className="font-black text-5xl">THACH HUYNH</h1>
-              <h5 className="font-bold">Striving for something new</h5>
-              <p className="font-semibold">
+            <div className="hero-text ">
+              <h1 className="font-black text-6xl">THACH HUYNH</h1>
+              <h5 className="font-bold text-3xl">Striving for something new</h5>
+              <p className="font-semibold text-xl">
                 <br />I am currently a senior at the University of Texas at
                 Dallas graduating Fall 2023. I primarly used Java and Python
                 throughout my college career. I am currently learning
