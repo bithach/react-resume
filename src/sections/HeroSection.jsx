@@ -6,9 +6,9 @@ import Button from "react-bootstrap/Button";
 
 function HeroSection(props) {
   return (
-    <div className="hero-section-outer" id="aboutme">
+    <div className="hero-section-outer pb-[50px]" id="aboutme">
       <Container>
-        <Row className="align-items-center heroRow">
+        <Row className="heroRow align-items-center">
           <Col style={{ height: 100 + "%", textAlign: "center" }}>
             <div className="hero-text">
               <h1 className="font-black text-5xl">THACH HUYNH</h1>
