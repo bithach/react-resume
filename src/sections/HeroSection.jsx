@@ -17,7 +17,7 @@ function HeroSection(props) {
                 <br />I am currently a senior at the University of Texas at
                 Dallas graduating Fall 2023. I primarly used Java and Python
                 throughout my college career. I am currently learning
-                Javascript/Typescript in a web development environemnt using
+                Javascript/Typescript in web development environemnt using
                 React.
               </p>
               <a href="mailto:bithach@hotmail.com">
