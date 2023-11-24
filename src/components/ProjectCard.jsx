@@ -26,7 +26,9 @@ export function ProjectCard(props) {
             ""
           )}
         </div>
-        <p className="project-desc px-3">{props.projectDescription}</p>
+        <p className="project-desc px-3 font-semibold">
+          {props.projectDescription}
+        </p>
         {props.githubLink !== "" ? (
           <a
             className="flex justify-center items-center"
