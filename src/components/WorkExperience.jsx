@@ -4,11 +4,13 @@ import { useState } from "react";
 export function WorkExperience() {
   const [experienceDescription, changeDescription] = useState([]);
   const [targetID, changeTargetID] = useState(0);
+  const [fade, setFade] = useState(true);
 
   function companyButtonClick(event) {
     event.preventDefault();
     changeTargetID((a) => event.target.id);
     changeDescription(experienceData[event.target.id - 1].description);
+    setFade((b) => false);
     return;
   }
 
@@ -44,15 +46,17 @@ export function WorkExperience() {
           </button>
         ))}
       </div>
-      {targetID !== 0 ? (
-        <ul className="list-disc lg:w-1/2 lg:p-0 sm:pt-8 space-y-2 h-auto">
-          {experienceDescription.map((desc) => (
-            <li className="font-semibold text-xl">{desc}</li>
-          ))}
-        </ul>
-      ) : (
-        ""
-      )}
+      <div className={`transition-all ease-in duration-300 ${
+            !fade ? 'max-h-[324px]' : 'max-h-0'
+          } lg:w-1/2 lg:p-0 sm:pt-8 space-y-2 h-auto `}>
+        
+            <ul className={`list-disc  transition-all ease-in duration-200 delay-100 ${
+              !fade ? 'opacity-100' : 'opacity-0'} `}>
+            {experienceDescription.map((desc) => (
+              <li className={`font-semibold text-xl`}>{desc}</li>
+            ))}
+            </ul>
+      </div>
     </div>
   );
 }
