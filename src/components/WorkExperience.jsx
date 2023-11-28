@@ -16,19 +16,19 @@ export function WorkExperience() {
   }
 
   return (
-    <div className="work-exprience container flex flex-wrap" id="work">
-      <div className="button-container w-1/2 space-y-2">
+    <div
+      className="work-exprience container flex flex-wrap justify-center"
+      id="work"
+    >
+      <div className="button-container space-y-2 lg:w-1/2 sm:w-full">
         {experienceData.map((val) => (
           <button
             id={val.id}
             onClick={companyButtonClick}
             className="work-buttons
-            text-left
             px-2
             h-14
             max-h-20
-            ml-[50px]
-            lg:ml-[75px]
             font-black
             border-2
             border-black
@@ -40,6 +40,9 @@ export function WorkExperience() {
             hover:shadow-black
             hover:bg-black
             sm:w-auto
+            sm:text-center
+            lg:text-left
+            lg:ml-[75px]
             lg:h-10
             lg:w-1/2
             "
