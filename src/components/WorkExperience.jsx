@@ -10,7 +10,8 @@ export function WorkExperience() {
     event.preventDefault();
     changeTargetID((a) => event.target.id);
     changeDescription(experienceData[event.target.id - 1].description);
-    setFade((b) => false);
+    setFade((b) => !fade);
+
     return;
   }
 
@@ -25,6 +26,7 @@ export function WorkExperience() {
             text-left
             px-2
             h-14
+            max-h-20
             ml-[50px]
             lg:ml-[75px]
             font-black
@@ -42,20 +44,24 @@ export function WorkExperience() {
             lg:w-1/2
             "
           >
-            {val.companyName + " " + val.duration}
+            {val.companyName + ": " + val.duration}
           </button>
         ))}
       </div>
-      <div className={`transition-all ease-in duration-300 ${
-            !fade ? 'max-h-[324px]' : 'max-h-0'
-          } lg:w-1/2 lg:p-0 sm:pt-8 space-y-2 h-auto `}>
-        
-            <ul className={`list-disc  transition-all ease-in duration-200 delay-100 ${
-              !fade ? 'opacity-100' : 'opacity-0'} `}>
-            {experienceDescription.map((desc) => (
-              <li className={`font-semibold text-xl`}>{desc}</li>
-            ))}
-            </ul>
+      <div
+        className={`transition-all ease-in duration-300 ${
+          !fade ? "max-h-[324px]" : "max-h-0 delay-150"
+        } lg:w-1/2 lg:p-0 sm:pt-8 space-y-2 h-auto`}
+      >
+        <ul
+          className={`list-disc space-y-4 transition-all ease-in duration-200 delay-100 ${
+            !fade ? "opacity-100" : "opacity-0"
+          }`}
+        >
+          {experienceDescription.map((desc) => (
+            <li className={`font-semibold text-xl`}>{desc}</li>
+          ))}
+        </ul>
       </div>
     </div>
   );
