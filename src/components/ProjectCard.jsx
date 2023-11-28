@@ -18,7 +18,7 @@ export function ProjectCard(props) {
           {console.log(props.projectLogo)}
           {props.projectLogo !== "" ? (
             <img
-              className="project-logo w-[192px] h-[192px] p-[5px]"
+              className="project-logo w-[192px] h-[192px] p-[5px] rounded-xl"
               src={props.projectLogo}
               alt=""
             />
