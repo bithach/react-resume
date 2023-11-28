@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react-resume/static/css/main.8c112922.css",
-    "main.js": "/react-resume/static/js/main.11cfbe19.js",
+    "main.css": "/react-resume/static/css/main.74820458.css",
+    "main.js": "/react-resume/static/js/main.eb7290d3.js",
     "static/media/IMG_5151.JPG": "/react-resume/static/media/IMG_5151.c8c1c02a44710d1da2b1.JPG",
     "static/media/Usaa_logo_PNG2.png": "/react-resume/static/media/Usaa_logo_PNG2.332c0d56eca98bcbc954.png",
-    "static/media/mail.svg": "/react-resume/static/media/mail.c4e2250b999fbdc00ce8259dbbf648a8.svg",
+    "static/media/mail.svg": "/react-resume/static/media/mail.b8d4eba709d7ab8b172b913d2e6e3652.svg",
     "static/media/github-mark.svg": "/react-resume/static/media/github-mark.6fa18895f6e6c7772cab7049f7e05f59.svg",
+    "static/media/linkedin.svg": "/react-resume/static/media/linkedin.fe8721c9a6b838941416b840c12455b6.svg",
     "index.html": "/react-resume/index.html",
-    "static/media/linkedin.svg": "/react-resume/static/media/linkedin.2eda7bddaacee15c44494bb63ca94165.svg",
-    "main.8c112922.css.map": "/react-resume/static/css/main.8c112922.css.map",
-    "main.11cfbe19.js.map": "/react-resume/static/js/main.11cfbe19.js.map"
+    "main.74820458.css.map": "/react-resume/static/css/main.74820458.css.map",
+    "main.eb7290d3.js.map": "/react-resume/static/js/main.eb7290d3.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c112922.css",
-    "static/js/main.11cfbe19.js"
+    "static/css/main.74820458.css",
+    "static/js/main.eb7290d3.js"
   ]
 }
